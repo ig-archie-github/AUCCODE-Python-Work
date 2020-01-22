@@ -1,0 +1,6 @@
+lst = [29, 5, 12, -35]
+highest_value = lst[0]
+for x in lst:
+    if x > highest_value:
+        highest_value = x
+print(highest_value)
