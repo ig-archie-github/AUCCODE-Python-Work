@@ -1,6 +1,6 @@
 lst = [20, -10, -5, -7, 35, 15, 10/2]
 for x in range(len(lst)):
-    for y in range((len(lst) - x) - 1):
+    for y in range(len(lst) - 1):
         if lst[y] > lst[y + 1]:
             temp = lst[y]
             lst[y] = lst[y + 1]
